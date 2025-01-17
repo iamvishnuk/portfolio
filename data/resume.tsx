@@ -21,7 +21,10 @@ export const DATA = {
     'MongoDB',
     'TailwindCSS',
     'AWS',
-    'Express.js'
+    'Express.js',
+    'Git',
+    'GitHub',
+    'Figma'
   ],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
@@ -35,28 +38,31 @@ export const DATA = {
         name: 'GitHub',
         url: 'https://github.com/iamvishnuk',
         icon: Icons.github,
-
         navbar: true
       },
       LinkedIn: {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/vishnu-k-9294a9221',
         icon: Icons.linkedin,
-
         navbar: true
       },
       X: {
         name: 'X',
         url: 'https://x.com/VishnuK1609',
         icon: Icons.x,
-
         navbar: true
       },
       email: {
         name: 'Send Email',
-        url: '#',
+        url: 'mailto:vishnuk1609.dev@gmail.com',
         icon: Icons.email,
-        navbar: false
+        navbar: true
+      },
+      LeetCode: {
+        name: 'LeetCode',
+        url: 'https://leetcode.com/u/vishnukkakkarayil',
+        icon: Icons.leetCode,
+        navbar: true
       }
     }
   },
@@ -101,10 +107,10 @@ export const DATA = {
     {
       title: 'Giftoora',
       href: 'https://www.giftoora.com',
-      dates: 'Otc 2024 - Dec 2024',
-      active: true,
+      dates: 'Nov 2024 - Jan 2025',
+      active: false,
       description:
-        'With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.',
+        'Developed a full-stack e-commerce platform for a gift website using Next.js, MongoDB, Razorpay, and ShadCN UI. Implemented seamless payment integration and an intuitive user interface for a smooth shopping experience',
       technologies: [
         'Next.js',
         'Typescript',
@@ -117,7 +123,7 @@ export const DATA = {
         {
           type: 'Website',
           href: 'https://www.giftoora.com',
-          icon: <Icons.globe className='size-3' />
+          icon: <Icons.globe className='size-1' />
         }
       ],
       image: '/gifoora.png',
