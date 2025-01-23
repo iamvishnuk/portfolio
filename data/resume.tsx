@@ -106,6 +106,7 @@ export const DATA = {
   projects: [
     {
       title: 'Giftoora',
+      projectFor: 'Freelance',
       href: 'https://www.giftoora.com',
       dates: 'Nov 2024 - Jan 2025',
       active: false,

@@ -152,6 +152,7 @@ export default function Home() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                  projectFor={project.projectFor}
                 />
               </BlurFade>
             ))}

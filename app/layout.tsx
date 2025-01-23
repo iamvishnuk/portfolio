@@ -69,7 +69,11 @@ export default function RootLayout({
           geistMono.variable
         )}
       >
-        <ThemeProvider>
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='system'
+          enableSystem
+        >
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
