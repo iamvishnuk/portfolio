@@ -108,10 +108,15 @@ export default function Home() {
           <div className='flex flex-wrap gap-1'>
             {DATA.skills.map((skill, id) => (
               <BlurFade
-                key={skill}
+                key={skill.name}
                 delay={BLUR_FADE_DELAY * 10 + id * 0.05}
               >
-                <Badge key={skill}>{skill}</Badge>
+                <Badge key={skill.name}>
+                  <div className='flex items-center gap-1'>
+                    <skill.icon className='size-4' />
+                    <span>{skill.name}</span>
+                  </div>
+                </Badge>
               </BlurFade>
             ))}
           </div>

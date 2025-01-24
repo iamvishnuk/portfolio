@@ -12,19 +12,58 @@ export const DATA = {
     'As a self-taught MERN Stack Developer, seeking a challenging role to utilize technical skills, passion for web development, and a continuous learning mindset in contributing to dynamic projects and driving impactful solutions',
   avatarUrl: '/me.jpg',
   skills: [
-    'React',
-    'Next.js',
-    'Typescript',
-    'Node.js',
-    'Postgres',
-    'Docker',
-    'MongoDB',
-    'TailwindCSS',
-    'AWS',
-    'Express.js',
-    'Git',
-    'GitHub',
-    'Figma'
+    {
+      name: 'React',
+      icon: Icons.react
+    },
+    {
+      name: 'Next.js',
+      icon: Icons.nextjs
+    },
+    {
+      name: 'Typescript',
+      icon: Icons.typescript
+    },
+    {
+      name: 'Node.js',
+      icon: Icons.nodejs
+    },
+    {
+      name: 'Postgres',
+      icon: Icons.postgres
+    },
+    {
+      name: 'Docker',
+      icon: Icons.docker
+    },
+    {
+      name: 'MongoDB',
+      icon: Icons.mongodb
+    },
+    {
+      name: 'TailwindCSS',
+      icon: Icons.tailwindcss
+    },
+    {
+      name: 'AWS',
+      icon: Icons.aws
+    },
+    {
+      name: 'Express.js',
+      icon: Icons.expressjs
+    },
+    {
+      name: 'Git',
+      icon: Icons.git
+    },
+    {
+      name: 'GitHub',
+      icon: Icons.github
+    },
+    {
+      name: 'Figma',
+      icon: Icons.figma
+    }
   ],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
