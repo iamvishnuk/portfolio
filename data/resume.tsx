@@ -109,7 +109,7 @@ export const DATA = {
   work: [
     {
       company: 'Glasier Inc',
-      href: 'https://www.glasierinc.com/',
+      href: 'https://www.glasierinc.com',
       badges: [],
       location: 'On-site',
       title: 'MERN Stack Developer',
@@ -117,10 +117,11 @@ export const DATA = {
       start: 'Nov 2023',
       end: 'Dec 2024',
       description: [
-        'Specialized in frontend development using React.js and Next.js to create dynamic, responsive, and user-friendly web applications',
-        'Collaborated with cross-functional teams to deliver seamless user experiences and integrate frontend designs with backend APIs.',
-        'Ensured performance optimization, adherence to modern design principles, and maintenance of high code quality.',
-        'Actively contributed to the development of scalable and innovative web solutions, aligning with business objectives.'
+        'Designed and developed dynamic, responsive web applications using React.js and Next.js to deliver exceptional user experiences.',
+        'Collaborated with cross-functional teams to implement frontend designs, integrate RESTful APIs, and ensure smooth functionality.',
+        'Executed performance optimization strategies to enhance website speed, SEO, and scalability.',
+        'Applied modern UI/UX design principles and coding standards to maintain high-quality, maintainable codebases.',
+        'Contributed to building scalable and innovative web solutions aligned with client and business objectives.'
       ]
     }
   ],
@@ -146,8 +147,8 @@ export const DATA = {
     {
       title: 'Giftoora',
       projectFor: 'Freelance',
-      href: 'https://www.giftoora.com',
-      dates: 'Nov 2024 - Jan 2025',
+      href: '',
+      dates: 'Nov 2024 - Feb 2025',
       active: false,
       description:
         'Developed a full-stack e-commerce platform for a gift website using Next.js, MongoDB, Razorpay, and ShadCN UI. Implemented seamless payment integration and an intuitive user interface for a smooth shopping experience',
@@ -162,12 +163,64 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://www.giftoora.com',
+          href: '',
           icon: <Icons.globe className='size-1' />
         }
       ],
       image: '/gifoora.png',
       video: ''
+    },
+    {
+      title: 'Glasier Inc Website',
+      projectFor: 'Galsier Inc',
+      href: 'https://www.glasierinc.com',
+      dates: 'Nov 2023 - Dec 2024',
+      active: false,
+      description:
+        "Developed Glasier Inc.'s company website using Next.js and Bootstrap, with a strong focus on SEO optimization, responsive design, and performance to enhance user experience and search engine visibility.",
+      technologies: ['Next.js', 'Bootstrap'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://www.glasierinc.com',
+          icon: <Icons.globe className='size-1' />
+        }
+      ],
+      image: '/glasierinc.png',
+      video: ''
+    },
+    {
+      title: 'Gamezone (E-commerce)',
+      projectFor: 'Personal Project',
+      href: 'http://13.233.89.30:3001',
+      dates: 'Nov 2023 - Dec 2024',
+      active: false,
+      description:
+        'Game-zone is an e-commerce website that allows customers to browse and purchase products online. The website features a user-friendly interface, a secure payment system, and advanced search and filtering options. Customers can create accounts, and track their order status.',
+      technologies: [
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'EJS',
+        'Bootstrap',
+        'Razorpay',
+        'Twilio'
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'http://13.233.89.30:3001',
+          icon: <Icons.globe className='size-1' />
+        }
+      ],
+      image: '/gamezone.png',
+      video: ''
+    }
+  ],
+  certifications: [
+    {
+      title: 'Namaste JavaScript',
+      certificateUrl: '/certificates/certificate.webp'
     }
   ]
 } as const;

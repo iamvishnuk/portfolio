@@ -1,3 +1,4 @@
+import CertificateCard from '@/components/certificate-card';
 import { ProjectCard } from '@/components/project-card';
 import ResumeCard from '@/components/resume-card';
 import { Avatar, AvatarImage } from '@/components/ui/avatar';
@@ -158,6 +159,30 @@ export default function Home() {
                   video={project.video}
                   links={project.links}
                   projectFor={project.projectFor}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id='certifications'>
+        <div className='grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6'>
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className='space-y-3'>
+              <div className='inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background'>
+                Certifications
+              </div>
+            </div>
+          </BlurFade>
+          <div className='mx-auto grid max-w-[800px] grid-cols-1 gap-3 sm:grid-cols-2'>
+            {DATA.certifications.map((certification, id) => (
+              <BlurFade
+                key={certification.title}
+                delay={BLUR_FADE_DELAY * 14 + id * 0.05}
+              >
+                <CertificateCard
+                  title={certification.title}
+                  certificateUrl={certification.certificateUrl}
                 />
               </BlurFade>
             ))}
