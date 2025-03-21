@@ -147,7 +147,7 @@ export const DATA = {
     {
       title: 'Giftoora',
       projectFor: 'Freelance',
-      href: '',
+      href: 'https://www.giftoora.com',
       dates: 'Nov 2024 - Feb 2025',
       active: false,
       description:
@@ -163,11 +163,11 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: '',
+          href: 'https://www.giftoora.com',
           icon: <Icons.globe className='size-1' />
         }
       ],
-      image: '/gifoora.png',
+      image: '/giftoora.png',
       video: ''
     },
     {
