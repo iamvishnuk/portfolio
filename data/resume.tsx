@@ -66,8 +66,8 @@ export const DATA = {
     }
   ],
   navbar: [
-    { href: '/', icon: HomeIcon, label: 'Home' },
-    { href: '/blog', icon: NotebookIcon, label: 'Blog' }
+    { href: '/', icon: HomeIcon, label: 'Home' }
+    // { href: '/blog', icon: NotebookIcon, label: 'Blog' }
   ],
   contact: {
     email: 'vishnuk1609@gmail.com',

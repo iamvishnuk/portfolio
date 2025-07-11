@@ -11,6 +11,7 @@ import { DATA } from '@/data/resume';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { Dock, DockIcon } from './ui/dock';
+import { Icons } from './icons';
 
 export default function Navbar() {
   return (
@@ -63,6 +64,25 @@ export default function Navbar() {
               </Tooltip>
             </DockIcon>
           ))}
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Link
+                href='/resume/Vishnu_K _MERN_Stack_Developer.pdf'
+                className={cn(
+                  buttonVariants({ variant: 'ghost', size: 'icon' })
+                )}
+                download={true}
+              >
+                <Icons.resume className='size-4' />
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Resume</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
+
         <Separator
           orientation='vertical'
           className='h-full py-2'
