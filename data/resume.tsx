@@ -63,6 +63,10 @@ export const DATA = {
     {
       name: 'Figma',
       icon: Icons.figma
+    },
+    {
+      name: 'Socket.IO',
+      icon: Icons.socketIo
     }
   ],
   navbar: [
