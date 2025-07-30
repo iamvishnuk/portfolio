@@ -149,6 +149,32 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'Monkey Adventures',
+      projectFor: 'Freelance',
+      href: 'https://www.monkeyadventures.co.in',
+      dates: 'Jun 2025 - Jul 2025',
+      active: false,
+      description:
+        'A full-stack travel booking platform built with Next.js, MongoDB, and TailwindCSS. Features include an admin panel for managing events, travel packages (fixed and customizable), and a gallery to showcase completed trips. Users can explore packages and register for events. Built with TypeScript, Framer Motion, and ShadCN UI for a modern and responsive experience.',
+      technologies: [
+        'Next.js',
+        'Typescript',
+        'MongoDB',
+        'TailwindCSS',
+        'Shadcn UI',
+        'Motion'
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://www.monkeyadventures.co.in',
+          icon: <Icons.globe size={15} />
+        }
+      ],
+      image: '/monkey-adventures.png',
+      video: ''
+    },
+    {
       title: 'Giftoora',
       projectFor: 'Freelance',
       href: 'https://www.giftoora.com',
@@ -168,7 +194,7 @@ export const DATA = {
         {
           type: 'Website',
           href: 'https://www.giftoora.com',
-          icon: <Icons.globe className='size-1' />
+          icon: <Icons.globe size={15} />
         }
       ],
       image: '/giftoora.png',
@@ -187,7 +213,7 @@ export const DATA = {
         {
           type: 'Website',
           href: 'https://www.glasierinc.com',
-          icon: <Icons.globe className='size-1' />
+          icon: <Icons.globe size={15} />
         }
       ],
       image: '/glasierinc.png',
@@ -214,7 +240,12 @@ export const DATA = {
         {
           type: 'Website',
           href: 'http://13.233.89.30:3001',
-          icon: <Icons.globe className='size-1' />
+          icon: <Icons.globe size={15} />
+        },
+        {
+          type: 'GitHub',
+          href: 'https://github.com/iamvishnuk/Gamezone---ecommerce',
+          icon: <Icons.github  className='size-4'/>
         }
       ],
       image: '/gamezone.png',

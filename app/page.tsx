@@ -163,10 +163,18 @@ export default function Home() {
               </BlurFade>
             ))}
           </div>
+          <div className='flex justify-center'>
+            <Link
+              href='/projects'
+              className='inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background'
+            >
+              View all
+            </Link>
+          </div>
         </div>
       </section>
       <section id='certifications'>
-        <div className='grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6'>
+        <div className='grid w-full items-center justify-center gap-4 px-4 text-center md:px-6'>
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className='space-y-3'>
               <div className='inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background'>
