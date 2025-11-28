@@ -178,77 +178,77 @@ export const DATA = {
       image: '/ghar-ka-dhosth.png',
       video: ''
     },
-    {
-      title: 'Monkey Adventures',
-      projectFor: 'Freelance',
-      href: 'https://www.monkeyadventures.co.in',
-      dates: 'Jun 2025 - Jul 2025',
-      active: false,
-      description:
-        'A full-stack travel booking platform built with Next.js, MongoDB, and TailwindCSS. Features include an admin panel for managing events, travel packages (fixed and customizable), and a gallery to showcase completed trips. Users can explore packages and register for events. Built with TypeScript, Framer Motion, and ShadCN UI for a modern and responsive experience.',
-      technologies: [
-        'Next.js',
-        'Typescript',
-        'MongoDB',
-        'TailwindCSS',
-        'Shadcn UI',
-        'Motion'
-      ],
-      links: [
-        {
-          type: 'Website',
-          href: 'https://www.monkeyadventures.co.in',
-          icon: <Icons.globe size={15} />
-        }
-      ],
-      image: '/monkey-adventures.png',
-      video: ''
-    },
-    {
-      title: 'Giftoora',
-      projectFor: 'Freelance',
-      href: 'https://www.giftoora.com',
-      dates: 'Nov 2024 - Feb 2025',
-      active: false,
-      description:
-        'Developed a full-stack e-commerce platform for a gift website using Next.js, MongoDB, Razorpay, and ShadCN UI. Implemented seamless payment integration and an intuitive user interface for a smooth shopping experience',
-      technologies: [
-        'Next.js',
-        'Typescript',
-        'MongoDB',
-        'TailwindCSS',
-        'Razorpay',
-        'Shadcn UI'
-      ],
-      links: [
-        {
-          type: 'Website',
-          href: 'https://www.giftoora.com',
-          icon: <Icons.globe size={15} />
-        }
-      ],
-      image: '/giftoora.png',
-      video: ''
-    },
-    {
-      title: 'Glasier Inc Website',
-      projectFor: 'Galsier Inc',
-      href: 'https://www.glasierinc.com',
-      dates: 'Nov 2023 - Dec 2024',
-      active: false,
-      description:
-        "Developed Glasier Inc.'s company website using Next.js and Bootstrap, with a strong focus on SEO optimization, responsive design, and performance to enhance user experience and search engine visibility.",
-      technologies: ['Next.js', 'Bootstrap'],
-      links: [
-        {
-          type: 'Website',
-          href: 'https://www.glasierinc.com',
-          icon: <Icons.globe size={15} />
-        }
-      ],
-      image: '/glasierinc.png',
-      video: ''
-    },
+    // {
+    //   title: 'Monkey Adventures',
+    //   projectFor: 'Freelance',
+    //   href: 'https://www.monkeyadventures.co.in',
+    //   dates: 'Jun 2025 - Jul 2025',
+    //   active: false,
+    //   description:
+    //     'A full-stack travel booking platform built with Next.js, MongoDB, and TailwindCSS. Features include an admin panel for managing events, travel packages (fixed and customizable), and a gallery to showcase completed trips. Users can explore packages and register for events. Built with TypeScript, Framer Motion, and ShadCN UI for a modern and responsive experience.',
+    //   technologies: [
+    //     'Next.js',
+    //     'Typescript',
+    //     'MongoDB',
+    //     'TailwindCSS',
+    //     'Shadcn UI',
+    //     'Motion'
+    //   ],
+    //   links: [
+    //     {
+    //       type: 'Website',
+    //       href: 'https://www.monkeyadventures.co.in',
+    //       icon: <Icons.globe size={15} />
+    //     }
+    //   ],
+    //   image: '/monkey-adventures.png',
+    //   video: ''
+    // },
+    // {
+    //   title: 'Giftoora',
+    //   projectFor: 'Freelance',
+    //   href: 'https://www.giftoora.com',
+    //   dates: 'Nov 2024 - Feb 2025',
+    //   active: false,
+    //   description:
+    //     'Developed a full-stack e-commerce platform for a gift website using Next.js, MongoDB, Razorpay, and ShadCN UI. Implemented seamless payment integration and an intuitive user interface for a smooth shopping experience',
+    //   technologies: [
+    //     'Next.js',
+    //     'Typescript',
+    //     'MongoDB',
+    //     'TailwindCSS',
+    //     'Razorpay',
+    //     'Shadcn UI'
+    //   ],
+    //   links: [
+    //     {
+    //       type: 'Website',
+    //       href: 'https://www.giftoora.com',
+    //       icon: <Icons.globe size={15} />
+    //     }
+    //   ],
+    //   image: '/giftoora.png',
+    //   video: ''
+    // },
+    // {
+    //   title: 'Glasier Inc Website',
+    //   projectFor: 'Galsier Inc',
+    //   href: 'https://www.glasierinc.com',
+    //   dates: 'Nov 2023 - Dec 2024',
+    //   active: false,
+    //   description:
+    //     "Developed Glasier Inc.'s company website using Next.js and Bootstrap, with a strong focus on SEO optimization, responsive design, and performance to enhance user experience and search engine visibility.",
+    //   technologies: ['Next.js', 'Bootstrap'],
+    //   links: [
+    //     {
+    //       type: 'Website',
+    //       href: 'https://www.glasierinc.com',
+    //       icon: <Icons.globe size={15} />
+    //     }
+    //   ],
+    //   image: '/glasierinc.png',
+    //   video: ''
+    // },
     {
       title: 'Gamezone (E-commerce)',
       projectFor: 'Personal Project',
