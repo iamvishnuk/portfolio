@@ -68,7 +68,7 @@ export default function Navbar() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
-                href='/resume/Vishnu_K _MERN_Stack_Developer.pdf'
+                href='/resume/Vishnu-k-Full-Stack-Developer.pdf'
                 className={cn(
                   buttonVariants({ variant: 'ghost', size: 'icon' })
                 )}
